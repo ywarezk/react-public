@@ -98,3 +98,7 @@ We use JSX to describe our React Components
 ```
 > npm start
 ```
+
+## Video lecture
+
+https://www.youtube.com/watch?v=bVPMCmTN__Q
