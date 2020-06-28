@@ -2,6 +2,18 @@
 
 In this lesson we will talk about the syntax we will use to describe our React components.
 
+## What is JSX
+
+gives us html like syntax that we can use in our js files
+jsx translates to React.createElement
+
+## JSX rules - what i can and cannot do in JSX
+
+1. tags in lowercase tags in upper case Component
+2. do not use reserved js words in jsx
+
+
+
 ## Lesson Plan
 
 - What is JSX
