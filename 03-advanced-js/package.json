@@ -1,0 +1,15 @@
+{
+  "name": "03-advanced-js",
+  "version": "1.0.0",
+  "description": "The programming language we will use in this course is JS version ES6+",
+  "main": "class-example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
