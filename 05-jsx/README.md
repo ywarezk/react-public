@@ -11,6 +11,7 @@ jsx translates to React.createElement
 
 1. tags in lowercase tags in upper case Component
 2. do not use reserved js words in jsx
+3. React has to be on scope
 
 
 
