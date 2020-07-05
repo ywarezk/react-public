@@ -48,6 +48,11 @@ open your browser at: localhost:3000
 - there is a library called webpack that collects those imports
   - using imports webpack knows which resources to include in your project
 
+## Video
+
+https://www.youtube.com/watch?v=n-GATg31ctE
+https://www.youtube.com/watch?v=s_ctvfeA58c
+
 
 ## EX.
 
