@@ -52,7 +52,8 @@ open your browser at: localhost:3000
 ## EX.
 
 - Start a new project using create-react-app
-- Create a component that displays an image
-- Add a css file for that component
-- Add bootstrap
+- Create a component that displays an image **Logo**
+- Add a css file for that component try and use SCSS for your styling
+- Add bootstrap, install with npm and add the proper import to **index.css**
 - Create a component that displays a login form and use bootstrap css classes to design the form
+- Try and position  the components on the center of the screen using bootstrap
