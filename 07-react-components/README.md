@@ -86,9 +86,15 @@ In the useEffect if i opened something that needs to be cleaned, I need to retur
 
 - https://reactjs.org/docs/hooks-effect.html
 
-### Riddle
+### H.W Video lecture
 
+video lecture about components are available here:
 
+https://www.youtube.com/watch?v=jpmyfv_w-fw&t=2s
+
+### H.W react dev tools
+
+install chrome extension react dev tools
 
 ## Lesson Plan
 
