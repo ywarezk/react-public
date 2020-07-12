@@ -20,6 +20,10 @@ In this lesson we will focus on how to build react components
 - in function component we get the props in the function argument
 - props in the child are read only
 
+## H.W - props
+
+- https://reactjs.org/docs/components-and-props.html
+
 ## State Machine
 
 1 -----> 2
@@ -50,11 +54,20 @@ state 2
 - you get [state, setState]
 - setState(newValue) react will call the function again
 
+### Hooks H.W
 
+- https://reactjs.org/docs/hooks-intro.html
+- https://reactjs.org/docs/hooks-overview.html
+- https://reactjs.org/docs/hooks-state.html
 
-## H.W - props
+### Component lifecycle
 
-- https://reactjs.org/docs/components-and-props.html
+component has lifecycle events: born, death, update
+
+### HW Component lifecycle
+
+- https://reactjs.org/docs/react-component.html
+
 
 ## Lesson Plan
 
