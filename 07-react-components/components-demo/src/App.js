@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld/HelloWorld';
 import HelloWorldClass from './components/HelloWorld/HelloWorldClass';
 import CountdownClass from './components/Countdown/CountdownClass';
+import CountdownFunc from './components/Countdown/CountdownFunc';
 
 
 function App() {
@@ -34,11 +35,11 @@ function App() {
       </h1>
 
       {
-        isCountdownVisible && (
-          <CountdownClass cb={zeroCb} />
-        )
+        isCountdownVisible && <CountdownFunc cb={zeroCb} />
       }
       
+      
+
     </div>
   );
 }

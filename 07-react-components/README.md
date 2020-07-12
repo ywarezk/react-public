@@ -69,6 +69,27 @@ component has lifecycle events: born, death, update
 - https://reactjs.org/docs/react-component.html
 
 
+### useEffect
+
+- useEffect(() => { ... }, [...])
+- the first argument which is the function will be run after the first render and after the render of each update - componentDidMount + componentDidUpdate
+- the second argument is optional decided which updates will we run the function
+- 
+
+- useEffect will run a function after mount + after certain update,
+certain update is determined by the array in the second argument
+In the useEffect if i opened something that needs to be cleaned, I need to return a cleaning function
+
+
+
+### H.W useEffect
+
+- https://reactjs.org/docs/hooks-effect.html
+
+### Riddle
+
+
+
 ## Lesson Plan
 
 - The job of a react component

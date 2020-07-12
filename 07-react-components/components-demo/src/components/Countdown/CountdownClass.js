@@ -24,18 +24,25 @@ export default class Countdown extends React.Component {
 
         this.intervalId = setInterval(() => {
             // this will run alot every second
-            if (this.state.counter <= 0) {
-                this.props.cb();
-            } else {
-                this.setState({
-                    counter: this.state.counter - 1
-                })
-            }
+            this.setState({
+                counter: this.state.counter - 1
+            });
         }, 1000)
     }
 
     componentWillUnmount() {
         clearInterval(this.intervalId);
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        // this.props, this.state
+        if (this.state.counter <= 0) {
+            this.props.cb();
+        }
+    }
+
+    dealingWithCounter() {
+        
     }
 
     render() {
