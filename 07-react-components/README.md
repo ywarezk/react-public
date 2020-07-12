@@ -2,6 +2,60 @@
 
 In this lesson we will focus on how to build react components
 
+## What are React components
+
+- React component represents a block ui
+- With React we build a tree of components
+- every component needs to draw itself, refresh it's drawing
+- component turns to jsx tag
+  - function Header() {...}    <Header />
+- we create with react SPA - no refresh of page
+- manual change detection - I need to specify for react to update a component
+- if i tell react to update - it does not necessarily means react will update the dom
+- When you tell React to update you tell him to update the virtual dom
+
+## props
+
+- props is a way to send data from parent component to child component
+- in function component we get the props in the function argument
+- props in the child are read only
+
+## State Machine
+
+1 -----> 2
+
+state 1
+{
+    user: null       
+}
+
+state 2
+{
+    user: 'Yariv'
+}
+
+## Hooks
+
+- hooks are functions
+- you call those function like regular js function: const ourState = useState(false)
+- hooks start with **use**, useState, useEffect, useContext, useReducer, useMemo, useCallback, useRef
+- hooks can be used in function component
+- hooks are gateway to component behavior
+- never wrap hooks with nesting if's or for's 
+
+### useState
+
+- create part of our state
+- useState(initialState)
+- you get [state, setState]
+- setState(newValue) react will call the function again
+
+
+
+## H.W - props
+
+- https://reactjs.org/docs/components-and-props.html
+
 ## Lesson Plan
 
 - The job of a react component
