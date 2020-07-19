@@ -1,10 +1,22 @@
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
+import JWTContext from '../../jwt.context';
 
-function Login({cb}) {
+function Login() {
+
+    /**
+
+     useForms({
+        email: '',
+        password: ''
+    })
+
+     */
+
     const [formState, setFormState] = useState({
         email: '',
         password: ''
     });
+    const {setToken} = useContext(JWTContext);
 
     // const handleEmailChange = (event) => {
     //     setFormState({
@@ -41,7 +53,7 @@ function Login({cb}) {
         });
         const data = await response.json();
         console.log(data);
-        cb(data.token);
+        setToken(data.token);
     }
 
     return (

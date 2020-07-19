@@ -23,6 +23,20 @@ Read about spread operator
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 
+## Custom Hooks
+
+we have two components: Login, Name
+they share a common things in them
+We can create a third function which holds the common grounds between Login, Name
+that function is called Custom hook
+unlike other functions, a Custom hook can use the other hooks
+
+
+## H.W
+
+read about custom hooks
+
+https://reactjs.org/docs/hooks-custom.html
 
 
 ## EX.
@@ -62,3 +76,14 @@ https://www.youtube.com/watch?v=8BtdI3-ateM&t=1123s
 ## EX.
 
 https://www.youtube.com/watch?v=-tmLZX6scnY&t=938s
+
+In this EX try to do the part of custom hook
+
+## H.W
+
+Try to do the login form with a library called Formik
+
+https://formik.org/
+
+Try to add validation to the form
+

@@ -7,6 +7,7 @@
  */
 
 import React, {useState} from 'react';
+import useForms from '../../hooks/forms.hook';
 
 /** */
 
@@ -17,44 +18,28 @@ import React, {useState} from 'react';
 */
 
 function NameForm(props) {
-    const [formState, setFormState] = useState({
-        myName: '',
-        // password: '',
-        // email: ..
-    });
-
-    /**
-     * this function will be called
-     * every time the user change the text in the input
-     * in this function we will update myName
-     */
-    const updateMyName = (event) => {
-        setFormState({
-            ...formState,
-            myName: event.target.value
-        })
-    }
-
-    const handleSubmit = (event) => {
-        console.log('name form submitting: ' + formState.myName);
-
-        event.preventDefault();
-    }
+    const [formState, updateMyName, handleSubmit] = useForms(
+        {
+            myName: '',
+        },
+        () => {
+            console.log('name form submitting: ' + formState.myName);
+        }
+    );
 
     return (
-        <div>
-            <form onSubmit={handleSubmit} >
-                <input
-                    name="my-name"
-                    type="text"
-                    value={formState.myName}
-                    onChange={updateMyName}
-                    placeholder="Enter your name..." />
-                <button type="submit">
-                    Submit form
-                </button>
-            </form>
-        </div>
+      <div>
+        <form onSubmit={handleSubmit}>
+          <input
+            name="myName"
+            type="text"
+            value={formState.myName}
+            onChange={updateMyName}
+            placeholder="Enter your name..."
+          />
+          <button type="submit">Submit form</button>
+        </form>
+      </div>
     );
 }
 

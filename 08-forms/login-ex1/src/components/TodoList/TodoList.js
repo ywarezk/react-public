@@ -2,10 +2,12 @@
  * Our todo list needs to get the token from the login
  */
 
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState, useContext} from 'react';
+import JWTContext from '../../jwt.context';
 
-function TodoList({token}) {
+function TodoList() {
     const [todoList, setTodoList] = useState([]);
+    const {token} = useContext(JWTContext);
 
     useEffect(() => {
 
