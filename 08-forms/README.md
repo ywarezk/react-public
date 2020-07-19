@@ -11,6 +11,20 @@ In this lesson we will learn how to deal with form in react components
 - Render props
 - Custom hooks
 
+## H.W1
+
+- read the docs about forms
+
+https://reactjs.org/docs/forms.html
+
+##. H.W2
+
+Read about spread operator
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+
+
 ## EX.
 
 - Create the following components: App, Login, TodoList

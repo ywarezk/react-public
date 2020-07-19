@@ -2,7 +2,7 @@
  * component
  * Function
  * 5..4..3..2..1 BOM!
- * 
+ *
  */
 
 import React, {useState, useEffect} from 'react';
@@ -30,7 +30,7 @@ export default function Countdown(/*props*/ {cb}) {
             }
 
             // this function will be called multiple times
-            // after each render this is the default behavior 
+            // after each render this is the default behavior
             const intervalId = setInterval(() => {
                 setCounter(counter - 1);
             }, 1000);
