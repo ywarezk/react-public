@@ -116,6 +116,10 @@ state = {
 		avatar: 'https://.../avatar.png'
 	},
 	
+	miriam: {
+		
+	},
+	
 	todo: {
 		tasks: [
 			{title: '', description: '', id},
