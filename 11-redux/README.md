@@ -111,7 +111,7 @@ you need to assign a new state to change it
 
 state = {
 	user: {
-		firstName: 'Piglet',
+		firstName: 'Yariv',
 		lastName: 'Katz',
 		avatar: 'https://.../avatar.png'
 	},
@@ -149,6 +149,53 @@ npm install react-redux
 ```
 
 you can read the data with the custom hook: `useSelector`
+
+## Action
+
+describes the change we want to perform in the redux state
+
+```
+{
+	type: '[user] Set FirstName',
+	payload?: 'Piglet'
+}
+
+{
+	type: '[tasks] Set Tasks',
+	payload?: [{title: ...}]
+}
+
+{
+	type: '[todo] Send Request'
+}
+
+{
+	type: '[user] logout'
+}
+```
+
+https://redux.js.org/recipes/reducing-boilerplate#actions
+
+
+
+## Reducer
+
+given an action, given the current state => I decide what the next state will be
+(state, action) => nextState
+
+```
+[
+	action1,
+	action2,
+	action3,
+	...
+	action-n
+] => the current state
+```
+
+reducers for every section
+
+
 
 ## Lesson Plan
 

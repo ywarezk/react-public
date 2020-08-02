@@ -5,12 +5,8 @@
  
 import { createStore } from 'redux';
 import { devToolsEnhancer } from 'redux-devtools-extension/logOnlyInProduction';
+import motherReducer from './reducers';
 
-const store = createStore((state) => state, {
-	user: {
-		firstName: 'Yariv',
-		lastName: 'Katz'
-	}
-}, devToolsEnhancer());
+const store = createStore(motherReducer, devToolsEnhancer());
 
 export default store;
