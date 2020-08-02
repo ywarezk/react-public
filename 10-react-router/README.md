@@ -20,6 +20,8 @@ We will learn how to split our react application to multiple pages
 https://reactrouter.com/
 display components if url is matching
 
+documentation is here: https://reactrouter.com/web/guides/quick-start
+
 ## Lesson Plan
 
 - Router Context
