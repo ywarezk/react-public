@@ -199,6 +199,16 @@ given an action, given the current state => I decide what the next state will be
 
 reducers for every section
 
+## Redux summary
+
+1. npm install redux
+2. npm install react-redux
+3. createStore()
+4. `<Provider store={}>`
+5. Reducers `{user: {}}`
+6. useSelector
+7. Action setFirstName
+8. useDispatch() => dispatch(action)
 
 
 ## Lesson Plan
